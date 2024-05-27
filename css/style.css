@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 1000px;
+}
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.boton {
+    width: 20%;
+    height: 20%;
+    background-color: lightsalmon;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+}
+.boton:hover {
+    background-color: indianred;
+}
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: indigo;
+}
+.contenedor {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #908e8e;
+    padding: 20px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    flex-grow: 0;
+}
